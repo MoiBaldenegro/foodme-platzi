@@ -1,3 +1,10 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
 /****************************************
  * general purpose css-only components  *
  ****************************************/
@@ -243,4 +250,26 @@ input.ng-invalid.ng-dirty {
 
 input.ng-invalid {
   border: 1px solid red;
+}
+
+/****************************************
+ * New styles                   *
+ ****************************************/
+
+
+/* NavBar */
+.navbar-m{
+  width: 100%;
+  background-color: #E9322D;
+  
+  >div{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    color: #ddd;
+    text-decoration: none;
+  }
+ 
 }
