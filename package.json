@@ -16,6 +16,7 @@
   ],
   "main": "server/start.js",
   "scripts": {
+    "build": "cd app && ng build --prod",
     "start": "node server/start.js"
   },
   "dependencies": {
@@ -26,8 +27,8 @@
     "open": "^8.4.2",
     "pino": "^8.7.0"
   },
-  "engines" : { 
-    "node": ">=20.14.0" 
+  "engines": {
+    "node": ">=20.14.0"
   },
   "license": "MIT"
 }
