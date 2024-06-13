@@ -1,6 +1,6 @@
 "use strict";
 exports.config = {
-  app_name: ["my-service"],
+  app_name: ["platzi-foddmeApp"],
   license_key: process.env.LICENSE_KEY,
   logging: { level: "info" },
   allow_all_headers: true,
