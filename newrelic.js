@@ -1,6 +1,6 @@
 "use strict";
-export const config = {
-  app_name: ["foodme-platzi-moi"],
+exports.config = {
+  app_name: ["my-service"],
   license_key: process.env.LICENSE_KEY,
   logging: { level: "info" },
   allow_all_headers: true,
