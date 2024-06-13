@@ -16,8 +16,8 @@
   ],
   "main": "server/start.js",
   "scripts": {
-    "build": "cd app && ng build --prod",
-    "start": "node server/start.js"
+    "start": "node server/start.js",
+    "build": "cd app && ng build --prod --output-path=dist/app --base-href=./"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
