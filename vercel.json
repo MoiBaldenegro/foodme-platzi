@@ -18,8 +18,5 @@
             "src": "/.*",
             "dest": "/server/start.js"
         }
-    ],
-    "env": {
-        "NEW_RELIC_HOME": "/vercel/path/to/newrelic"
-    }
+    ]
 }
