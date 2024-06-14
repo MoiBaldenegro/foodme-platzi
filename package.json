@@ -17,7 +17,6 @@
   "main": "server/start.js",
   "scripts": {
     "start": "node -r newrelic server/start.js",
-    "vercel-build": "npm run build",
     "build": "cd app && ng build --prod --output-path=dist/app --base-href=./"
   },
   "dependencies": {
@@ -33,8 +32,5 @@
   "engines": {
     "node": ">=20.14.0"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "@angular/cli": "^18.0.4"
-  }
+  "license": "MIT"
 }
