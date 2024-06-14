@@ -1,22 +1,30 @@
+
 {
     "version": 2,
     "builds": [
-        {
-            "src": "server/start.js",
-            "use": "@vercel/node"
-        },
-        {
-            "src": "app/dist/app/**",
-            "use": "@vercel/static"
-        }
+      {
+        "src": "server/start.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "app/dist/app/**",
+        "use": "@vercel/static"
+      }
     ],
     "routes": [
-        {
-            "handle": "filesystem"
-        },
-        {
-            "src": "/.*",
-            "dest": "/server/start.js"
-        }
+      {
+        "src": "/api/(.*)",
+        "dest": "server/start.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "app/dist/app/$1"
+      }
     ]
-}
+  }
+
+
+
+
+
+  
