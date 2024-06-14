@@ -17,6 +17,7 @@
   "main": "server/start.js",
   "scripts": {
     "start": "node -r newrelic server/start.js",
+    "vercel-build": "npm run build",
     "build": "cd app && ng build --prod --output-path=dist/app --base-href=./"
   },
   "dependencies": {
