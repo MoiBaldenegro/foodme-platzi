@@ -16,8 +16,7 @@
   ],
   "main": "server/start.js",
   "scripts": {
-    "start": "node -r newrelic server/start.js",
-    "build": "cd app && ng build --prod --output-path=dist/app --base-href=./"
+    "start": "node -r newrelic server/start.js"
   },
   "dependencies": {
     "body-parser": "^1.20.0",

@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 exports.config = {
-  app_name: ["platzi-foddmeApp"],
+  app_name: ["foodme-app-aws-deploy"],
   license_key:
     process.env.NEW_RELIC_LICENSE_KEY ||
     "be6b8f16756bca63c98a0e1779079107693eNRAL",
