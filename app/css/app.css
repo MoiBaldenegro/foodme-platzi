@@ -27,7 +27,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 32px;
+  padding: 12px 32px;
 
 }
 
@@ -177,8 +177,6 @@ ul{
 
 .fm-panel {
 
-  outline:  1px solid rgb(47, 17, 216);
-
   -webkit-border-top-left-radius: 3px;
   -moz-border-radius-topleft: 3px;
   border-top-left-radius: 3px;
@@ -246,7 +244,6 @@ ul.fm-rating {
 }
 
 fm-rating a {
-  visibility: hidden;
   padding-left: 7px;
 }
 
@@ -313,9 +310,7 @@ input.ng-invalid.ng-dirty {
  * Restaurant card                      *
  ****************************************/
 
- .restaurant-card{
-  border: 12px solid blue !important;
- }
+
  tr{
   border: 1px solid black;
  }
@@ -491,8 +486,35 @@ input.ng-invalid {
 }
 .fm-panel-filters form{
   display: flex;
+  flex-direction: column;
+  border: 1px solid aqua;
+  gap: 8px;
+}
+.fm-panel-filters form div{
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.fm-panel-filters div label{
+  font-size: 1.2rem;
+  font-weight: 600;
+  min-width: max-content;
+  padding:6px;
+  margin: 6px;
+  border: 2px solid #9C070F;
+  border-radius: 8px;
+  color: #9C070F;
+}
+
+.filters a{
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  border-radius: 8px;
+  background: #530c0c;
+  transition: background-color 0.1.5s ease;
+} 
 
 
 
@@ -549,7 +571,6 @@ input.ng-invalid {
 }
 
 .card{
-  border: 1px solid blue;
   padding: 16px;
   border-radius: 8px;
   box-shadow: 0px 4px 12px 0px #00000040;
@@ -560,7 +581,6 @@ input.ng-invalid {
 
 .vs{
   position: absolute;
-  border: 2px solid yellow;
   background-color:  #fff;
   width: 100%;
   height: 95%;
@@ -581,17 +601,186 @@ input.ng-invalid {
 }
  
 .img-container-menu{
-  width: 300px;
+  min-width: 300px;
   height: 300px;
 }
 
 .img-rounded{
-  border: 1px solid yellow;
   border-radius: 16px;
   width: 100%;
   height: 100%;
 }
 .menu-content-container{
-  border: 1px solid blue;
   padding: 16px;
+  padding-bottom: 0px;
+  display: flex;
+  gap: 16px;
+}
+
+.menu-content-container>div{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.menu-content-container>div:first-child{
+  width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 0px;
+}
+.menu-content-container>div:last-child{
+  width: calc(100% - 800px);
+}
+
+.restaurant-description{
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.menu-list ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+  height: 100%;
+  gap: 16px;
+}
+
+.menu-list li a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 16px;
+  width: 100%;
+}
+
+.menu-list li a span{
+  text-align: center;
+}
+
+.menu-list li a span:nth-child(2){
+  font-weight: 600;
+  font-size: 1.2rem;
+
+}
+.order-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid yellow;
+  height: 100%;
+}
+.order-container>h4{
+  padding: 8px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  width: 100%;
+  text-align: center;
+  background-color: #9C070F;
+  color: #ddd;
+  text-decoration: uppercase;
+  border-radius: 8px;
+
+}
+.order-container>form{
+  height: 100%;
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-container>form>ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  padding: 16px;
+}
+.row-restaurant{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+.checkout-btn{
+  padding: 16px;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  background: #e9fcf2;
+  color: #29d884;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding: 32px;
+  gap: 16px;
+  font-size: 2rem;
+  text-decoration: uppercase;
+  font-weight: 600;
+  border: 2px solid #29d884;
+
+}
+.checkout-btn:hover {
+  background-color: #29d884;
+  color: #e9fcf2;
+  border: 2px solid #e9fcf2;
+
+}
+
+
+.row-restaurant h3{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.row-restaurant li{
+  font-size: 2.2rem;
+}
+.price-and-rating{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.menu-list li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid #9C070F;
+  border-radius: 8px;
+  transition: .2s ease all;
+}
+.menu-list li:hover{
+  background-color: #ce27272d;
+  cursor: pointer;
+} 
+
+.classButton{
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: .2s ease all;
+}
+
+.classButton:hover{
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+.classButton:active{
+  transform: scale(0.9);
+}
+.add{
+  height: 45px;
+  cursor: pointer;
 }

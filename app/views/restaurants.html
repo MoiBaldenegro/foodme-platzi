@@ -3,11 +3,12 @@
   <div class="span3 fm-panel-filters">
     <h4>Filter Restaurants</h4>
     <form>
-      <h5>Rating</h5>
+      <div class="filters"> 
+        <h5>Rating</h5>
       <fm-rating ng-model="$parent.filter.rating"></fm-rating>
       <h5>Price</h5>
       <fm-rating ng-model="$parent.filter.price" symbol="$"></fm-rating>
-      <h5>Cuisine</h5>
+      </div>
       <div fm-checkbox-list ng-model="filter.cuisine">
         <label ng-repeat="(name, title) in CUISINE_OPTIONS" class="checkbox">
           <input type="checkbox" value="{{name}}"> {{title}}

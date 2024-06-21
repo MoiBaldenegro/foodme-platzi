@@ -7,58 +7,57 @@
   </div>
   <div class="menu-content-container" >
     <div>
-      <div class="img-container-menu">
-        <img src="img/restaurants/angular.jpg" class="img-rounded">
-      </div>
-    </div>
-    <div >
-      <div class="row">
-        <div class="span10">
-          <h3>{{restaurant.name}}</h3>
-          <div class="row">
-            <div class="span2">
-              <div>{{restaurant.address}}</div>
-              <fm-rating ng-model="$parent.restaurant.rating" readonly="true"></fm-rating>
-              <fm-rating ng-model="$parent.restaurant.price" symbol="$" readonly="true"></fm-rating>
-            </div>
-            <div class="span4">
-              <div>{{restaurant.description}}</div>
-            </div>
+        <div class="restaurant-description">
+          <div class="img-container-menu">
+            <img src="img/restaurants/angular.jpg" class="img-rounded">
+          </div>
+          <div class="row-restaurant">
+                <div class="span2">
+                  <h3>{{restaurant.name}}</h3>
+                  <div>{{restaurant.address}}</div>
+                  <div class="price-and-rating">
+                    <fm-rating ng-model="$parent.restaurant.rating" readonly="true"></fm-rating>
+                    <fm-rating ng-model="$parent.restaurant.price" symbol="$" readonly="true"></fm-rating> 
+                  </div>
+                </div>
+                <div class="span4">
+                  <div>{{restaurant.description}}</div>
+                </div>
           </div>
         </div>
-      </div>
+        <div class="order-container">
+          <h4>Your order</h4>
+          <form>
+            <ul>
+              <li ng-repeat="item in cart.items">
+                <a href ng-click="cart.remove(item)"><i class="icon-remove-sign"></i></a>
+                {{item.qty}} &times; {{item.name}}
+              </li>
+            </ul>
+              <a ng-show="cart.items.length" href="#/checkout" ng-disabled="!cart.items.length" class="checkout-btn">  <p>
+                <b>Total: {{cart.total() | currency}}</b>
+              </p>Checkout</a>
+
+              <!-- 
+              <div class="pull-right" > 
+            </div> 
+            -->
+            
+            
+          </form>
+        </div>
     </div>
-    <div >
-      <div class=" fm-menu-list">
-        <h4>Menu</h4>
+    <div  class="menu-list" >
         <ul>
           <li ng-repeat="menuItem in restaurant.menuItems">
-            <a href ng-click="cart.add(menuItem, restaurant)">
+            <a >
               <span>{{menuItem.name}}</span>
-              <span>{{menuItem.price}}</span>
-              <i class="icon-plus-sign"></i>
+              <span>${{menuItem.price}}</span>
+              <i></i>
             </a>
+            <button href ng-click="cart.add(menuItem, restaurant)" class="classButton"><img src="../assets/add.svg" alt="add-icon" class="add"></button>
           </li>
-        </ul>
-      </div>
-      <div class="span4 fm-panel fm-cart">
-        <h4>Your order</h4>
-        <form>
-          <ul >
-            <li ng-repeat="item in cart.items">
-              <a href ng-click="cart.remove(item)"><i class="icon-remove-sign"></i></a>
-              {{item.qty}} &times; {{item.name}}
-            </li>
-          </ul>
-          <div class="pull-right" ng-show="cart.items.length">
-            <a href="#/checkout" ng-disabled="!cart.items.length" class="btn">Checkout</a>
-          </div>
-          <p>
-            <b>Total: {{cart.total() | currency}}</b>
-          </p>
-        </form>
-      </div>
+        </ul>      
     </div>
-  </div>
 </div>
 
