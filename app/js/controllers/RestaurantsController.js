@@ -72,19 +72,19 @@ foodMeApp.controller('RestaurantsController',
 
 
   $scope.CUISINE_OPTIONS = {
-    african: 'African',
-    american: 'American',
-    barbecue: 'Barbecue',
-    cafe: 'Cafe',
-    chinese: 'Chinese',
-    'czech/slovak': 'Czech / Slovak',
-    german: 'German',
-    indian: 'Indian',
-    japanese: 'Japanese',
-    mexican: 'Mexican',
-    pizza: 'Pizza',
-    thai: 'Thai',
-    vegetarian: 'Vegetarian'
-  };
+    african: { name: 'African', emoji: '🌍' },
+    american: { name: 'American', emoji: '🍔' },
+    barbecue: { name: 'Barbecue', emoji: '🍖' },
+    cafe: { name: 'Cafe', emoji: '☕' },
+    chinese: { name: 'Chinese', emoji: '🥡' },
+    'czech/slovak': { name: 'Czech / Slovak', emoji: '🥨' },
+    german: { name: 'German', emoji: '🍺' },
+    indian: { name: 'Indian', emoji: '🍛' },
+    japanese: { name: 'Japanese', emoji: '🍣' },
+    mexican: { name: 'Mexican', emoji: '🌮' },
+    pizza: { name: 'Pizza', emoji: '🍕' },
+    thai: { name: 'Thai', emoji: '🍜' },
+    vegetarian: { name: 'Vegetarian', emoji: '🥗' }
+};
 
 });

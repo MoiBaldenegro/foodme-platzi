@@ -54,3 +54,73 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4706,"time":"2024-06-21T03:10:21.692Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":0,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
 {"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4706,"time":"2024-06-21T03:10:21.700Z","msg":"Agent state changed from connected to started."}
 {"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4706,"time":"2024-06-21T03:10:22.701Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101443,"time":"2024-06-22T02:04:43.337Z","msg":"Using New Relic for Node.js. Agent version: 11.19.0; Node version: v20.14.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101443,"time":"2024-06-22T02:04:43.389Z","msg":"Using AsyncLocalContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101443,"time":"2024-06-22T02:04:43.409Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101443,"time":"2024-06-22T02:04:43.412Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101443,"time":"2024-06-22T02:04:43.412Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:57.646Z","msg":"Using New Relic for Node.js. Agent version: 11.19.0; Node version: v20.14.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:57.697Z","msg":"Using AsyncLocalContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:57.720Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:57.723Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:57.723Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:59.513Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:59.514Z","msg":"Connected to collector.newrelic.com:443 with agent run ID BcIfkcKwWgsCAERYvCLgPHBmdjGIAAgBAAAnIQEAAY10AgQizzDZAwAHMTEuMTkuMAAGcGFycm90ABVmb29kbWUtYXBwLWF3cy1kZXBsb3k.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:59.514Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/4479164/applications/584003801","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:59.518Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":0,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:04:59.528Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":101748,"time":"2024-06-22T02:05:00.529Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:23.941Z","msg":"Using New Relic for Node.js. Agent version: 11.19.0; Node version: v20.14.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:23.993Z","msg":"Using AsyncLocalContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:24.014Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:24.017Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:24.017Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:26.352Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:26.353Z","msg":"Connected to collector.newrelic.com:443 with agent run ID Bd8iw7btLBjpAERYvCLgPHBmdjQcAAgBAAAnIQEAAZIkAgQizzDZAwAHMTEuMTkuMAAGcGFycm90ABVmb29kbWUtYXBwLWF3cy1kZXBsb3k.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:26.353Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/4479164/applications/584003801","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:26.357Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":0,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:26.367Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":102948,"time":"2024-06-22T02:15:27.367Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:04.276Z","msg":"Using New Relic for Node.js. Agent version: 11.19.0; Node version: v20.14.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:04.430Z","msg":"Using AsyncLocalContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:04.461Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:04.466Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:04.466Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:08.089Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:08.090Z","msg":"Connected to collector.newrelic.com:443 with agent run ID BUltW2qfCw3vAERYvCLgPHBmdmXMAAgBAAAnIQEAAAvlAgQizzDZAwAHMTEuMTkuMAAGcGFycm90ABVmb29kbWUtYXBwLWF3cy1kZXBsb3k.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:08.091Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/4479164/applications/584003801","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:08.096Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":0,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:08.105Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":3045,"time":"2024-06-22T05:47:09.106Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:27.450Z","msg":"Using New Relic for Node.js. Agent version: 11.19.0; Node version: v20.14.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:27.522Z","msg":"Using AsyncLocalContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:27.551Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:27.555Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:27.555Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:29.991Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:29.992Z","msg":"Connected to collector.newrelic.com:443 with agent run ID BUB39kqhLuxSAERYvCLgPHBmd5M0AAgBAAAnIQEAAXqfAgQizzDZAwAHMTEuMTkuMAAGcGFycm90ABVmb29kbWUtYXBwLWF3cy1kZXBsb3k.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:29.993Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/4479164/applications/584003801","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:29.996Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":0,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:30.009Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T03:13:31.010Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":96927,"time":"2024-06-23T20:55:58.359Z","msg":"Merging 101 of 101 events into SpanEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:11.766Z","msg":"Using New Relic for Node.js. Agent version: 11.19.0; Node version: v20.14.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:11.853Z","msg":"Using AsyncLocalContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:11.882Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:11.887Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:11.887Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:14.245Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:14.246Z","msg":"Connected to collector.newrelic.com:443 with agent run ID Bf8tt_Sutq63AERYvCLgPHBmeOOIAAgBAAAnIQEAABEUAgQizzDZAwAHMTEuMTkuMAAGcGFycm90ABVmb29kbWUtYXBwLWF3cy1kZXBsb3k.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:14.246Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/4479164/applications/584003801","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:14.250Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":0,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:14.262Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T03:08:15.262Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:13:48.914Z","msg":"Merging 29 of 29 events into TransactionEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:13:58.483Z","msg":"Merging 3 of 3 events into TransactionEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:14:13.487Z","msg":"Merging 29 of 29 events into TransactionEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:14:23.495Z","msg":"Merging 32 of 32 events into TransactionEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:14:43.517Z","msg":"Merging 80 of 80 events into SpanEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:14:50.677Z","msg":"Merging 84 of 84 events into SpanEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:14:56.136Z","msg":"Merging 29 of 29 events into TransactionEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:15:03.533Z","msg":"Merging 32 of 32 events into TransactionEventAggregator for next harvest","component":"event_aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"parrot","pid":4372,"time":"2024-06-24T04:15:23.550Z","msg":"Merging 29 of 29 events into TransactionEventAggregator for next harvest","component":"event_aggregator"}

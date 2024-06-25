@@ -1,17 +1,50 @@
 <div class="restaurant-container">
   <fm-deliver-to></fm-deliver-to>
   <div class="span3 fm-panel-filters">
-    <h4>Filter Restaurants</h4>
     <form>
+    <h4>Filter Restaurants</h4>
       <div class="filters"> 
-        <h5>Rating</h5>
-      <fm-rating ng-model="$parent.filter.rating"></fm-rating>
-      <h5>Price</h5>
-      <fm-rating ng-model="$parent.filter.price" symbol="$"></fm-rating>
+        <div>
+          <div>
+            <h5>Rating</h5>
+            <fm-rating ng-model="$parent.filter.rating"></fm-rating>
+          </div>
+          <div>
+            <h5>Price</h5>
+            <fm-rating ng-model="$parent.filter.price" symbol="💸"></fm-rating>
+          </div>
+        </div>
+        <div>
+          <div class="pop">
+            <span>1</span>
+            <img src="../assets/popular.svg" alt="pop-icon">
+          </div>
+          <div class="pop">
+            <span>2</span>
+            <img src="../assets/vegetariano.svg" alt="veg-icon">
+          </div>
+          <div class="pop">
+            <span>3</span>
+            <img src="../assets/popular.svg" alt="pop-icon">
+          </div>
+          <div class="pop">
+            <span>4</span>
+            <img src="../assets/vegetariano.svg" alt="veg-icon">
+
+          </div>
+          <div class="pop">
+            <span>5</span>
+            <img src="../assets/popular.svg" alt="pop-icon">
+          </div>
+          <div class="pop">
+            <span>6</span>
+            <img src="../assets/vegetariano.svg" alt="veg-icon">
+          </div>
+        </div>
       </div>
       <div fm-checkbox-list ng-model="filter.cuisine">
         <label ng-repeat="(name, title) in CUISINE_OPTIONS" class="checkbox">
-          <input type="checkbox" value="{{name}}"> {{title}}
+          <input type="checkbox" value="{{name}}"> {{title.emoji}} {{title.name}}
         </label>
       </div>
     </form>
@@ -36,7 +69,7 @@
           <b>{{restaurant.name}}</b>
         </a>
         <p>{{restaurant.description}}</p>
-        <fm-rating ng-model="$parent.restaurant.price" symbol="$" readonly="true"></fm-rating>
+        <fm-rating ng-model="$parent.restaurant.price" symbol="💵" readonly="true"></fm-rating>
         <fm-rating ng-model="$parent.restaurant.rating" readonly="true"></fm-rating>
       </div>
     </div>

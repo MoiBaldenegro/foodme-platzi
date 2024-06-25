@@ -14,7 +14,7 @@ foodMeApp.directive('fmRating', function() {
       attrs.max = scope.max = parseInt(scope.max || 5, 10);
 
       if (!attrs.symbol) {
-        attrs.symbol = scope.symbol = '\u2605';
+        attrs.symbol = scope.symbol = "🌟";
       }
 
       var styles = [];

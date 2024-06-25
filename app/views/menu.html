@@ -17,7 +17,7 @@
                   <div>{{restaurant.address}}</div>
                   <div class="price-and-rating">
                     <fm-rating ng-model="$parent.restaurant.rating" readonly="true"></fm-rating>
-                    <fm-rating ng-model="$parent.restaurant.price" symbol="$" readonly="true"></fm-rating> 
+                    <fm-rating ng-model="$parent.restaurant.price" symbol="💵" readonly="true"></fm-rating> 
                   </div>
                 </div>
                 <div class="span4">
@@ -31,7 +31,7 @@
             <ul>
               <li ng-repeat="item in cart.items">
                 <a href ng-click="cart.remove(item)"><i class="icon-remove-sign"></i></a>
-                {{item.qty}} &times; {{item.name}}
+                <span>{{item.qty}}</span> <p>{{item.name}}</p>
               </li>
             </ul>
               <a ng-show="cart.items.length" href="#/checkout" ng-disabled="!cart.items.length" class="checkout-btn">  <p>
