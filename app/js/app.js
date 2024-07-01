@@ -33,5 +33,9 @@ foodMeApp.config(function($routeProvider) {
       }).
       when('/help', {
         templateUrl: 'views/help.html'
-      });
+      }).
+      when("/sucess/pay", {
+        templateUrl: "views/completePay.html"
+      })
+      
 });

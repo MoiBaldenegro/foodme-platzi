@@ -83,15 +83,16 @@ th, td {
     flex-direction: column;
     justify-content: space-between;
     gap: 8px;
+
 }
 
 
-.checkout-head a{
+.checkout-head>a{
     color: aliceblue;
     text-decoration: none;
 }
 
-.checkout-head a:hover{
+.checkout-head>a:hover{
     text-decoration: underline;
 }
 
@@ -101,10 +102,11 @@ th, td {
     border-radius: 8px;
 }
 
-.payment-select option{
+.payment-select>option{
     padding: 16px;
     font-size: 16px;
     font-weight: 600;
+
 }
 
 .first-input{
@@ -151,6 +153,7 @@ th, td {
     justify-content: space-between;
     align-items: center;
     padding: 8px 16px !important;
+
 }
 
 .head-checklist{
@@ -264,7 +267,7 @@ th, td {
     justify-content: center;
 }
 
-.go-container{
+.go-container{ 
     width: 100px !important;
     display: flex;
     align-items: center;
@@ -279,7 +282,7 @@ th, td {
     flex-direction: row;
 }
 
-.pay-footer-pay a{
+.pay-footer-pay>a{
     width: 100%;
     border: 2px solid whitesmoke;
     padding: 16px;
@@ -292,6 +295,16 @@ th, td {
     font-size: 18px;
 }
 
+a[class="pay-metod"]{
+    background-color: #9C070F;
+    text-decoration: none;
+    border-radius: 16px;
+    transition: 0.3s ease;
+
+}
+a[class="pay-metod"]:hover{
+    filter: opacity(0.7);
+}
 .pay-footer-pay a:hover{
     background-color: white;
     color: #9C070F;
