@@ -30,7 +30,7 @@
   }
 
   .pop span {
-    margin-top: 55px;
+    margin-top: 45px;
     position: absolute;
     z-index: 10000;
     font-weight: 900;
@@ -42,7 +42,6 @@
     -1px  1px 0 #000,  /* Sombra inferior izquierda */
      1px  1px 0 #000;  /* Sombra inferior derecha */
 }
-    
 
   .flag{
     z-index: 150000;

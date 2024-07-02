@@ -1,4 +1,4 @@
-<div class="checkout-container">
+<div class="checkout-container"> 
   <form name="form" class="checkout-form">
     <div class="pay-interface" >
       <div>
@@ -53,7 +53,8 @@
           </div>
           <span class="total-check" >Total to pay: {{ cart.total() | currency }}</span>
           <button ng-disabled="form.$invalid || !cart.items.length || submitting"
-          ng-click="purchase()" class="total-check-btn">Pay up</button>
+        ng-click="purchase()" class="total-check-btn">Pay up</button>
+
 
           </div>
         </div>
@@ -100,3 +101,11 @@
     </div>
   </div>
 </div>
+<script>
+  var app = angular.module('myApp', []);
+  app.controller('myController', function($scope) {
+      $scope.alert = function() {
+          alert('Amex selected!');
+      };
+  });
+</script>

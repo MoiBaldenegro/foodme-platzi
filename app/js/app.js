@@ -36,6 +36,9 @@ foodMeApp.config(function($routeProvider) {
       }).
       when("/sucess/pay", {
         templateUrl: "views/completePay.html"
+      }).
+      when("/amex", {
+        templateUrl: "views/amex-not-found.html"
       })
       
 });

@@ -493,12 +493,14 @@ input.ng-invalid {
   display: flex;
   flex-direction: column;
   gap: 8px;
+
 }
 
 .full-filters{
   display: flex;
   flex-direction: column;
-  width: 650px;
+  width: 700px;
+
 
 }
 .full-filters>div{
@@ -506,6 +508,7 @@ input.ng-invalid {
   align-items: center;
   gap: 8px;
   width: 100%;
+
   
 }
 .ratings{
@@ -569,6 +572,7 @@ input.ng-invalid {
   justify-content: space-between; 
   align-items: center;
 
+
 }
 
 .filters>div:first-child>div{
@@ -589,12 +593,13 @@ input.ng-invalid {
   align-items: center;
   gap: 16px;
   padding: 0px 16px;
-  width: calc(100% - 650px);
+  width: calc(100% - 780px);
 
 }
 .filters{
   display: flex;
   justify-content: space-between;
+  gap: 32PX;
 
 }
   

@@ -11,6 +11,11 @@ foodMeApp.controller('CheckoutController',
   $scope.purchase = function() {
     if ($scope.submitting) return;
 
+   if(cart.payment.type === "amex"){
+    $location.path('amex')
+    return
+   }
+
     $scope.submitting = true;
     cart.submitOrder().then(function(orderId) {
       $location.path('thank-you').search({orderId: orderId});
