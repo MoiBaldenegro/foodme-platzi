@@ -1,20 +1,22 @@
-# Project Name
+# FoodMee App for the Platzi + New Relic Challenge
 
-FoodMee App for the platzi + new relic challenge
+## Overview
+
+Brief description of the project.
 
 ## Deployment
 
-> .[!NOTE]. You can see the preview at https://retoplatzi.com
+> .[!NOTE]
+> You can see the preview at https://retoplatzi.com
 > The application has been deployed on AWS EC2 with Nginx and has been configured for observability using New Relic.
-
 
 <details>
 <summary>Observability Configuration</summary>
   
 New Relic has been integrated to monitor the performance and health of the application.
 </details>
-co
-### Implemented Features:
+
+### Implemented Features
 
 <details>
 <summary>Payment Restriction</summary>
