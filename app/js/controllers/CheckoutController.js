@@ -31,7 +31,7 @@ foodMeApp.controller('CheckoutController',
     $scope.submitting = true;
  
 
-     $http.post('http://localhost:3000/checkout/session/stripe', {
+     $http.post('https://retoplatzi.com/checkout/session/stripe', {
         customer: $scope.customer
       })
       .then(function(response) {

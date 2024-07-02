@@ -19,8 +19,8 @@ router.post("/checkout/session/stripe", async (req, res) => {
             },
         ],
         mode: "payment",
-        success_url: "http://localhost:3000/#/sucess/pay",
-        cancel_url: "http://localhost:3000/stripe/cancel",
+        success_url: "https://retoplatzi.com/#/sucess/pay",
+        cancel_url: "http://retoplatzi.com/stripe/cancel",
     }).then((session) => {
         res.json(session);
     });
