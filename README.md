@@ -4,7 +4,7 @@ FoodMee App for the platzi + new relic challenge
 
 ## Deployment
 
->[!NOTE] You can see the preview at https://retoplatzi.com
+>.[!NOTE]. You can see the preview at https://retoplatzi.com
 >The application has been deployed on AWS EC2 with Nginx and has been configured for observability using New Relic.
 
 
