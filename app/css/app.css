@@ -57,7 +57,7 @@ body{
 
 .form-horizontal{
   width: 48rem;
-  height: 32rem;
+  height: 28rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,6 +80,7 @@ body{
 
 .form-horizontal input{
   padding: 16px;
+  height: 100%;
 }
 .form-horizontal>h3{
   font-size: 3rem;
