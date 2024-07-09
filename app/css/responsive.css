@@ -1,0 +1,28 @@
+@media (max-width: 1700px){
+    #five{
+        display: none;
+    }
+}
+
+@media (max-width: 1500px){
+    #four{
+        display: none;
+    }
+}
+
+@media (max-width: 1350px){
+    #three{
+        display: none;
+    }
+}
+@media (max-width: 1200px){
+    #two{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px){
+    #one{
+        display: none;
+    }
+}

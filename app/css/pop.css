@@ -12,7 +12,7 @@
     overflow: hidden;
     z-index: 100000;
     position:static;
-    
+    background-color: transparent !important;
     cursor: pointer;
   
   }

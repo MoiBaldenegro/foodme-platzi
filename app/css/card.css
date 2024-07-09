@@ -7,22 +7,70 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    gap: 8px;
 
    
   }
 
   .card:hover{
-    background-color: #f3f3f3;
+    background-color: #eeeaea;
    
   }
   .card a{
    
   }
   
-  .card img{
-   height: 157px;
-   width: 437px;
-   border-radius: 16px;
-  }
-
  
+
+.card img {
+    height: 157px;
+    width: 425px;
+    border-radius: 16px;
+}
+
+.text-hover {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 32px;
+    color: #f3f3f3;
+    font-weight: 900;
+    height: 157px;
+    width: 425px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0; /* Ocultar inicialmente con opacidad */
+    transition: opacity 0.5s ease; /* Transición suave */
+}
+
+.card:hover .text-hover {
+    opacity: 1; /* Mostrar con opacidad */
+}
+
+.description-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.description-container b{
+  padding: 8px;
+  color: #f3f3f3;
+  background-color: #9C070F;
+  border-radius: 8px;
+}
+
+.description-container div{
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+  align-items: center;
+}
+.description-container li{
+  font-size: 16px;
+}

@@ -28,32 +28,44 @@
           </div>
         </div>
         <div>
-          <div class="pop">
-            <span>Las empanadas de rita</span>
+          <a  href="/#/menu/tomate" class="pop" id="one">
+            <div  class="pop">
+              <span>Las Empanadas de Rita</span>
             <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
             <img src="../assets/popular.svg" alt="pop-icon" class="flag">
-          </div>
-          <div class="pop">
-            <span>Tomate taqueria</span>
-            <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
-            <img src="../assets/vegetariano.svg" alt="veg-icon" class="flag">
-          </div>
-          <div class="pop">
-            <span>BBQ Tofu Paradise</span>
-            <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
-            <img src="../assets/popular.svg" alt="pop-icon" class="flag">
-          </div>
-          <div class="pop">
-            <span>Esther's German Saloon</span>
-            <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
-            <img src="../assets/vegetariano.svg" alt="veg-icon" class="flag">
-          </div>
-          <div class="pop">
-            <span>Khartoum Khartoum</span>
-            <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
-            <img src="../assets/popular.svg" alt="pop-icon" class="flag">
-          </div>
-         
+
+            </div>
+            
+          </a> 
+          <a  href="/#/menu/tomate" class="pop" id="two"> 
+            <div class="pop">
+              <span>Tomate Taqueria</span>
+              <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
+              <img src="../assets/vegetariano.svg" alt="veg-icon" class="flag">
+            </div>
+
+         </a> 
+          <a  href="/#/menu/tomate" class="pop" id="three">
+            <div class="pop">
+              <span>Cafeteria Literaria</span>
+              <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
+              <img src="../assets/popular.svg" alt="pop-icon" class="flag">
+            </div>
+          </a>
+          <a  href="/#/menu/tomate" class="pop" id="four">
+            <div class="pop">
+              <span>Esther's German Saloon</span>
+              <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
+              <img src="../assets/vegetariano.svg" alt="veg-icon" class="flag">
+            </div>
+          </a>
+          <a  href="/#/menu/tomate" class="pop" id="five">
+            <div class="pop">
+              <span>Khartoum Khartoum</span>
+              <img src="../img//restaurants/bhangra.jpg" alt="" class="back">
+              <img src="../assets/popular.svg" alt="pop-icon" class="flag">
+            </div>            
+          </a>        
         </div>
       </div>
       <div fm-checkbox-list ng-model="filter.cuisine" class="checks">
@@ -68,11 +80,16 @@
       <div ng-repeat="restaurant in restaurants" class="card">
         <a href="#/menu/{{restaurant.id}}">
           <img ng-src="img/restaurants/{{restaurant.id}}.jpg">
+        <p class="text-hover">{{restaurant.description}}</p>
+
         </a>
-        <b>{{restaurant.name}}</b>
-        <p>{{restaurant.description}}</p>
-        <fm-rating ng-model="$parent.restaurant.price" symbol="💵" readonly="true"></fm-rating>
-        <fm-rating ng-model="$parent.restaurant.rating" readonly="true"></fm-rating>
+        <div class="description-container">
+          <div>
+            <fm-rating ng-model="$parent.restaurant.price" symbol="💵" readonly="true"></fm-rating>
+            <fm-rating ng-model="$parent.restaurant.rating" readonly="true"></fm-rating>
+          </div>
+          <b>{{restaurant.name}}</b>
+        </div>
       </div>
     </div>
   </div>

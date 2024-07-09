@@ -36,7 +36,6 @@
         background-color: #c82333; /* Color de fondo rojo más oscuro al pasar el mouse */
     }
     #metods{
-        margin-top: 400px;
         display: flex;
         justify-content: center;
         gap: 64px;
@@ -48,12 +47,19 @@
         opacity: 0.7;
 
     }
+
+    .notfound-vector{
+        width: 300px;
+        height: 300px;
+    }
     
 </style>
 
 <div class="amex-container">
     <h1>Los pagos con tarjetas American Express no se encuentran disponibles. Por favor, prueba con un método de pago diferente.</h1>
     <a href="./#/checkout" class="button">Return to checkout</a>
+
+    <img class="notfound-vector" src="../assets/notfound.svg" alt="not-found">
 
     <div id="metods"> 
         <img src="../assets/bitcoin.svg" alt="">

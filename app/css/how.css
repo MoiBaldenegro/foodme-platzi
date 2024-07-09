@@ -79,6 +79,21 @@ justify-content: center;
     border-radius: 50%;
 }
 
+.social-container{
+margin-top: -400px;
+}
+
+.social-container img{
+    width: 80px;
+    height: 80px;
+    margin: 32px;
+    transition: .2s ease;
+}   
+.social-container img:hover{
+    transform: scale(1.03);
+    transition: transform 0.5s ease;
+}
+
 
 
 

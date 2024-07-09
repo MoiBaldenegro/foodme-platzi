@@ -527,7 +527,7 @@ input.ng-invalid {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 340px !important;
+  width: 360px !important;
 }
 
 .ratings a{
