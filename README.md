@@ -1,6 +1,6 @@
 # Preview
 
-## http://retoplatzi.com
+## https://retoplatzi.com
 
 > Click the link to visit the preview
 > [retoplatzi.com](http://retoplatzi.com "Visitar retoplatzi.com") > ![Preview](readmeAssets/shot.png)
@@ -40,7 +40,7 @@ In addition, alert systems were activated to test the functionality of the polic
 
 2. For extra activity number two, we added the business called "Literary Cafeteria" where each dish and drink refers to different Spanish-speaking authors.
 
-3. A test integration of payments with the Stripe and Mercado Pago APIs has been added. Please do not use real information to perform the tests. Below you will find information on test cards with which you can simulate a payment.
+3. A test integration of payments with the Stripe  API has been added. Please do not use real information to perform the tests. Below you will find information on test cards with which you can simulate a payment.
 
 ## Test Card Information
 
@@ -60,7 +60,6 @@ In addition, alert systems were activated to test the functionality of the polic
   - CVC: Any 3 digits
   - Exp: Any future date.
 
-#### Mercado pago
 
 ![Preview](readmeAssets/stripe.png)
 

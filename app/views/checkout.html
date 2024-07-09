@@ -20,7 +20,7 @@
               <img src="../assets/mastercard.svg" alt="mastercard-logo" class="mastercard-logo">
             </div>
           </div>
-          <div class="span6">
+          <div class="span6" >
               <select name="ccType" class="payment-select"
                       required
                       ng-model="cart.payment.type">
@@ -29,13 +29,20 @@
                 <option value="amex">Amex</option>
                 <option value="discover">Discover</option>
               </select>
-          <div >
+              <div style="display: flex; flex-direction: column; gap: 8px;" >
+                <input class="first-input"
+                        type="text" name="ccNum"
+                       placeholder="Cardholder name"
+                       maxlength="45"
+                       required ng-pattern="/\d{16}/"
+                       >
               <input class="first-input" 
                       type="text" name="ccNum"
                      placeholder="Card number"
                      maxlength="16"
                      required ng-pattern="/\d{16}/"
                      ng-model="cart.payment.number">
+
           </div>
           <div class="double-input">
               <input type="text" name="ccExp" 
@@ -59,9 +66,8 @@
           </div>
         </div>
       </div>
-      <a class="pay-metod" href="#/sucess/pay"><span>Bitcoin</span> <div class="go-container"><img src="../assets/btc.svg" alt="Bitcoin-logo" class="bitcoin-logo"><img src="../assets/go.svg" alt="go-icon" class="go-icon"></div></a>
       <a class="pay-metod" ng-click="createStripeSession()"><span>Stripe </span><div class="go-container"><img src="../assets//bitcoin.svg" alt="stripe-logo" class="stripe-logo"><img src="../assets/go.svg" alt="go-icon" class="go-icon"></div></a>
-      <div class="pay-metod"><span>Mercado pago</span><div class="go-container"><img src="../assets/../assets/ml.svg" alt="mp-logo" class="ml-logo"><img src="../assets/go.svg" alt="go-icon" class="go-icon"></div></div>
+      <a class="pay-metod" href="#/sucess/pay/criptomus/NoNosAutorizaronLaApiKey/:CaritaTriste:"><span>Bitcoin</span> <div class="go-container"><img src="../assets/btc.svg" alt="Bitcoin-logo" class="bitcoin-logo"><img src="../assets/go.svg" alt="go-icon" class="go-icon"></div></a>
       <div class="pay-footer">
         <p>
           ⚠️ This paid system is for testing the Platzi challenge, please do not use real information to test it.

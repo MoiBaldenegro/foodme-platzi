@@ -3,6 +3,10 @@
   margin: 0px;
   padding: 0px;
 }
+
+img{
+  object-fit: cover;
+}
 *::first-letter{
   text-transform: uppercase;
 } 
@@ -103,7 +107,7 @@ body{
 .modal-body{
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 16px;
   height: 220px;
 }
 
@@ -917,4 +921,8 @@ font-size: 24px;
 
 form{
   width: 100%;
+}
+
+.here{ 
+  gap: 32px !important;
 }
